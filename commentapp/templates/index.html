@@ -1,3 +1,4 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <form method="POST" action="{{ url_for('create_comment') }}">
     {{ form.csrf_token }}
     <div class="form-group">{{ form.body.label }} {{ form.body(size=140, class="form-control") }}</div>
