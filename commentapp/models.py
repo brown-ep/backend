@@ -17,7 +17,7 @@ __config = {
     "authDomain": FIREBASE_AUTH_DOMAIN,
     "databaseURL": FIREBASE_DATABASE_URL,
     "storageBucket": FIREBASE_STORAGE_BUCKET,
-    "serviceAccount": FIREBASE_SERVICE_ACCOUNT,
+    #"serviceAccount": FIREBASE_SERVICE_ACCOUNT,
 }
 __ = initialize_app(__config)
 db = __.database()
